@@ -17,3 +17,6 @@ You can also press tab button to auto-complete commands.
 - Auto complete support on the press of tab.
 - Take user variables and Save them.
 - You can Export multiple variables in the same line ex: $export x y z
+
+### Video
+https://youtu.be/JmvYJvGebLE
