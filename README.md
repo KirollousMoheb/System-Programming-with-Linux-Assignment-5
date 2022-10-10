@@ -8,7 +8,8 @@ You can also press tab button to auto-complete commands.
 
 ### Commands
 - sudo apt-get install libreadline-dev 
-- gcc -o myshell myshell.c -lreadline
+- make
+- cd objects/executables
 - ./myshell
 
 
