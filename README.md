@@ -19,7 +19,17 @@ The Shell supports the following features:
 - Auto complete support on the press of <kbd>tab</kbd>.
 - Take user variables and Save them.
 - You can Export multiple variables in the same line 
+- I/O Redirection using <kbd>></kbd> and <kbd><</kbd>.
 - Appropriate error handling
+
+### Limitations to be Implemented
+- Error Redirection isn't implemented
+- I/O Redirection for build-in commands like `echo` isn't implemented yet
+- Aliasing
+- User profiles
+- Piping
+- Signal handling for signals like  <kbd>SIGINT</kbd> and  <kbd>SIGTSTP</kbd>.
+- Process management including foreground and background processes and switching between them.
 
 ### Make instructions
 ```
