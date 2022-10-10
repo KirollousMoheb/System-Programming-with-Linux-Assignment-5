@@ -29,7 +29,7 @@ endif
 $(OBJ_PATH)/myshell.o: myshell.c
 	gcc -c -g $(INC)  $< -o $@
 
-$(OBJ_PATH)/$(LIB): $(OBJ_PATH)/cd.o  $(OBJ_PATH)/echo.o $(OBJ_PATH)/export.o $(OBJ_PATH)/helper.o $(OBJ_PATH)/local_vars.o $(OBJ_PATH)/parse.o $(OBJ_PATH)/prompt.o
+$(OBJ_PATH)/$(LIB): $(OBJ_PATH)/cd.o  $(OBJ_PATH)/echo.o $(OBJ_PATH)/export.o $(OBJ_PATH)/helper.o $(OBJ_PATH)/local_vars.o $(OBJ_PATH)/parse.o $(OBJ_PATH)/prompt.o $(OBJ_PATH)/redirection.o
 ifeq ($(LINKING_TYPE), static)
 	ar rcs $@ $^
 else ifeq ($(LINKING_TYPE), dynamic)
