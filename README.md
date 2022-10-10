@@ -7,7 +7,7 @@ This program serves as a shell interface. The shell interface accepts user comma
 ## Functionality and Limitations
 The Shell supports the following features:
 
-### Built-in commands AND fEATURES: 
+### Built-in commands and Features: 
 - `echo`
 - `cd`
 - `exit`
