@@ -21,10 +21,6 @@ void handle_echo (int argc, char** argv) {
     if (argc == 0) {
         return;
     }
-
-    if (strcmp(argv[argc-1], "&") == 0) {
-        argc--;
-    }
     char** trimmed_argv = (char**)malloc(sizeof(char*) * argc);
 
     // remove quotes

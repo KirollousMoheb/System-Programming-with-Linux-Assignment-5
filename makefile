@@ -44,7 +44,7 @@ else ifeq ($(LINKING_TYPE), dynamic)
 endif
 
 clean:
-	rm $(OBJ_PATH)/*.o $(OBJ_PATH)/*.so m $(OBJ_PATH)/*.a $(EXE_PATH)/*
+	rm -f  $(OBJ_PATH)/*.o $(OBJ_PATH)/*.so  $(OBJ_PATH)/*.a $(EXE_PATH)/*
 
 
 
